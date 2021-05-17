@@ -1,13 +1,15 @@
 import React from 'react'
-import {Container, Header, BackIcon, ProfileInfo, Button} from './styles';
+import {Container, Header, BackIcon, ProfileInfo, 
+BottomMenu, HomeIcon, BellIcon, EmailIcon, SearchIcon } from './styles';
+import ProfilePage from '../ProfilePage';
 
 const Main = () => {
     return (
         <Container>
             <Header>
-                <Button>
+                <button>
                     <BackIcon/>
-                </Button>
+                </button>
 
                 <ProfileInfo>
                     <strong>Abel Rodrigues</strong>
@@ -15,13 +17,13 @@ const Main = () => {
 
                 </ProfileInfo>
             </Header>
-            {/*<ProfilePage/>*/ }
-            {/*<BottomMenu>
-                <HomeIcon/>
+            <ProfilePage/>
+            <BottomMenu>
+                <HomeIcon className="active"/>
                 <SearchIcon/>
                 <BellIcon/>
                 <EmailIcon/>
-            </BottomMenu>*/}
+            </BottomMenu>
         </Container>
     )
 }

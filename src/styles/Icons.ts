@@ -8,7 +8,7 @@ export {
     Search
 } from 'styled-icons/material-outlined';
 export {
-    Person, Cake, Favorite
+    Person, Cake, Favorite,
 } from 'styled-icons/material';
 export {
     ArrowLeft
