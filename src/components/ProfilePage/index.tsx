@@ -2,8 +2,10 @@ import React from 'react'
 import {
     Container, Banner, Avatar,
     ProfileData, LocationIcon,
-    CakeIcon, Followage
+    CakeIcon, Followage, EditButton
 } from './styles';
+
+
 const ProfilePage = () => {
     return (
         <Container>
@@ -11,7 +13,7 @@ const ProfilePage = () => {
                 <Avatar/>
             </Banner>
             <ProfileData>
-                {/*<EditButton outlined>Editar perfil</EditButton>*/}
+                <EditButton outlined>Editar perfil</EditButton>
                 <h1>Abel Rodrigues</h1>
                 <h2>@abelfbrodrigues</h2>
 
